@@ -6,7 +6,7 @@ def connect_to_mysql():
 		host="localhost",
 		user="root",
 		password=get_decrypted_password(),
-		database="employee1"  # or your own DB
+		database="employee1"  
 	)
 	print("✅ Connected to MySQL")
 	conn.close()

@@ -8,7 +8,7 @@ def connect_to_mysql():
 		password=get_decrypted_password(),
 		database="employee1"  
 	)
-	print("✅ Connected to MySQL")
+	print("Connected to MySQL")
 	conn.close()
 
 if __name__ == "__main__":
